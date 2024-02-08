@@ -3,6 +3,7 @@ jobs:
     requires: [ ~commit, ~pr ]
     steps:
       - ls
+      - echo hi
     image: node:16
     annotations:
       screwdriver.cd/buildPeriodically: H * * * *
