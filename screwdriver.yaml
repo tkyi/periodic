@@ -5,4 +5,4 @@ jobs:
       - ls
     image: node:16
     annotations:
-      screwdriver.cd/buildPeriodically: H * * * *
+      screwdriver.cd/buildPeriodically: H H(9-12) * * *
